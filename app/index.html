@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eel-Tailwind Template</title>
+    <link href="/static/css/tailwind.output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-800 text-white">
+    <div class="container mx-auto p-4">
+        <div class="flex items-center justify-center mb-8">
+            <img src="/static/images/eel.svg" alt="Eel logo" class="h-12 w-12 mr-2">
+            <span class="text-4xl font-bold">+</span>
+            <img src="/static/images/tailwind.svg" alt="Tailwind logo" class="h-12 w-12 ml-2">
+        </div>
+        <h1 class="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-orange-400 to-orange-600 text-transparent bg-clip-text">Eel-Tailwind Template</h1>
+        <p class="text-center mb-4 text-gray-300">A template for creating Python Eel apps with Tailwind UI</p>
+        <p class="text-center mb-8 text-sm text-gray-400">Created by SK Digital</p>
+        <button id="pyButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded block mx-auto">
+            Call Python Function
+        </button>
+        <p id="result" class="mt-4 text-center"></p>
+    </div>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

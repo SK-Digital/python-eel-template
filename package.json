@@ -1,0 +1,11 @@
+{
+  "name": "eel-tailwind-app",
+  "version": "1.0.0",
+  "description": "A simple Eel-Tailwind app template",
+  "scripts": {
+    "build-css": "tailwindcss -i ./app/static/css/tailwind.css -o ./app/static/css/tailwind.output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
